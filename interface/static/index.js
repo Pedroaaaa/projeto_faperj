@@ -31,11 +31,20 @@
         }
         const alternatives = document.querySelectorAll("[name='alternatives']")
         const answers = []
+        let index = 0;
+
         for(const alternative of alternatives) {
             if(alternative.value) {
                 answers.push(alternative.value)
+            } else if(alternatives[index+1] !== undefined) {
+                if(alternatives[index+1].value != '') {
+                    window.alert("Do not leave a blank field between the answers");
+                    return;
+                }
             }
+            index++;
         }
+
         const correct = document.querySelector("[name='correct']").value;
 
         if(!alternatives[correct].value) {
@@ -45,13 +54,14 @@
         
 
         let themeId = 0;
-        for(theme of document.getElementsByName("theme")) {
+        for(const theme of document.getElementsByName("theme")) {
             if(theme.checked) {
                 themeId = theme.value;
             }
         };
+
         let characterId = 0
-        for(character of document.getElementsByName("character")) {
+        for(const character of document.getElementsByName("character")) {
             if(character.checked) {
                 characterId = character.value;
             }
@@ -97,12 +107,12 @@
             }
         }
         document.querySelector("[name='correct']").value = "";
-        for(theme of document.getElementsByName("theme")) {
+        for(const theme of document.getElementsByName("theme")) {
             if(theme.checked) {
                 theme.checked = false;
             }
         };
-        for(character of document.getElementsByName("character")) {
+        for(const character of document.getElementsByName("character")) {
             if(character.checked) {
                 character.checked = false;
             }
