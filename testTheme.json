@@ -1,0 +1,225 @@
+{   
+    "questionList" :
+    [
+        {
+            "prompt" : "Qual é a comida mais versátil do mundo:",
+            "answers" : [
+                "Cenoura",
+                "Chuchu",
+                "Batata"
+            ],
+            "correct" : 2,
+            "themeId" : 1,
+            "characterId" : 1,
+            "difficulty" : 1
+        },
+        {
+            "prompt" : "Acerca de gerenciamento de projetos, assinale a opção correta.",
+            "answers" : [
+                "As operações são realizadas em caráter contínuo, repetitivo e têm foco na integração, ao passo que projetos são não repetitivos e têm foco na disciplina.",
+                "Os projetos visam definir um futuro para a organização, ao passo que o planejamento e a gestão estratégica têm o papel de transformar ideias em ações concretas.",
+                "O programa compreende um grupo de projetos que exigem gerência simultânea, quando eles se apresentam independentes.",
+                "O subprojeto é um pequeno projeto inter-relacionado ao projeto principal.",
+                "O portfólio designa uma carteira de projetos que pode compreender um grupo ou todos os projetos interdependentes da organização."
+            ],
+            "correct" : 3,
+            "themeId" : 2,
+            "characterId" : 2,
+            "difficulty" : 1
+        },
+        {
+            "prompt" : "Considerando-se que todo projeto tem um início e um fim definidos, essa característica é designada de",
+            "answers" : [
+                "objetividade.",
+                "temporalidade.",
+                "progressividade.",
+                "durabilidade.",
+                "singularidade."
+            ],
+            "correct" : 1,
+            "themeId" : 2,
+            "characterId" : 2,
+            "difficulty" : 1
+        },
+        {
+            "prompt" : "O marco lógico, também conhecido como matriz lógica, busca servir como guia de orientação para o planejamento de projetos. A respeito do marco lógico, é correto afirmar que:",
+            "answers" : [
+                "É o mesmo que modelo lógico.",
+                "Auxilia na avaliação de programas.",
+                "É uma ferramenta de planejamento de projetos.",
+                "Marco lógico e modelo lógico não possuem características comuns.",
+                "É uma ferramenta orientada para resultados, buscando auxiliar na avaliação de programas."
+            ],
+            "correct" : 2,
+            "themeId" : 2,
+            "characterId" : 2,
+            "difficulty" : 1
+        },
+        {
+            "prompt" : "É correto afirmar sobre um projeto com valor planejado menor do que o custo real:",
+            "answers" : [
+                "O projeto está acima do custo orçado.",
+                "O projeto está abaixo do custo orçado.",
+                "O projeto está atrasado.",
+                "O projeto está cumprindo o seu cronograma.",
+                "Estas informações são insuficientes para conclusões sobre o projeto."
+            ],
+            "correct" : 4,
+            "themeId" : 2,
+            "characterId" : 2,
+            "difficulty" : 1
+        },
+        {
+            "prompt" : "A ação pública desenvolve-se por intermédio de políticas, programas, projetos e atividades. Os projetos são: ",
+            "answers" : [
+                "incorporados à rotina das organizações e exigem modelos gerenciais hierarquizados;",
+                "atividades com data de início e término e não têm restrição de tempo ou de custos;",
+                "finitos no tempo, esforços singulares e exigem modelos gerenciais orgânicos;",
+                "esforços permanentes para criar um produto ou serviço exclusivo;",
+                "parte da atividade operacional de uma organização."
+            ],
+            "correct" : 2,
+            "themeId" : 2,
+            "characterId" : 2,
+            "difficulty" : 1
+        },
+        {
+            "prompt" : "Assinale a opção que não se enquadra entre as fases do ciclo de vida de um projeto. ",
+            "answers" : [
+                "Execução.",
+                "Início.",
+                "Monitoramento.",
+                "Organização e Preparação.",
+                "Encerramento."
+            ],
+            "correct" : 2,
+            "themeId" : 2,
+            "characterId" : 2,
+            "difficulty" : 1
+        },
+        {
+            "prompt" : "Um projeto é diferente de uma operação, embora tenham alguns aspectos em comum, tais como:",
+            "answers" : [
+                "Sustentam o negócio, são permanentes, repetitivos e rotineiros.",
+                "São exclusivos e originais, tem foco na integração e causam impactos.",
+                "São ligados a planos estratégicos, buscam resultados duradouros e são temporários.",
+                "São realizados por pessoas, restringidos por recursos limitados e planejados, executados e controlados."
+            ],
+            "correct" : 3,
+            "themeId" : 2,
+            "characterId" : 2,
+            "difficulty" : 1
+        },
+        {
+            "prompt" : "O conceito “Esforço temporário empreendido para criar um produto, serviço ou resultado único” refere-se à",
+            "answers" : [
+                "Gestão de Risco.",
+                "Gestão de Processos.",
+                "Gestão de Compliance.",
+                "Gestão de Projetos."
+            ],
+            "correct" : 3,
+            "themeId" : 2,
+            "characterId" : 2,
+            "difficulty" : 1
+        },
+        {
+            "prompt" : "Assinale a opção que apresenta a fase de gestão de projetos que abarca as tarefas que visam avaliar os resultados do projeto e desmobilizar os recursos utilizados, discutindo-se e analisando-se as falhas ocorridas durante o projeto para que erros semelhantes não ocorram em novas iniciativas.",
+            "answers" : [
+                "planejamento",
+                "execução",
+                "monitoramento e controle",
+                "encerramento"
+            ],
+            "correct" : 3,
+            "themeId" : 2,
+            "characterId" : 2,
+            "difficulty" : 1
+        },
+        {
+            "prompt" : "A fase em que o produto é gradativamente elaborado corresponde ao ciclo de vida de um projeto denominado:",
+            "answers" : [
+                "concepção",
+                "desenvolvimento",
+                "projeto do produto",
+                "desenho"
+            ],
+            "correct" : 2,
+            "themeId" : 2,
+            "characterId" : 2,
+            "difficulty" : 1
+        },
+        {
+            "prompt" : "O escritório de projetos cuja função é assessorar e prestar consultoria aos gerentes de projetos, podendo também assumir atribuições de gerenciamento centralizado, é conhecido como:",
+            "answers" : [
+                "Project Management Office",
+                "Portfólio",
+                "Project Management Institute",
+                "Stakeholders"
+            ],
+            "correct" : 0,
+            "themeId" : 2,
+            "characterId" : 2,
+            "difficulty" : 1
+        },
+        {
+            "prompt" : "O caminho crítico e o tempo necessário para a realização de todas as atividades são, respectivamente:",
+            "answers" : [
+                "A-B-C-D-E-F: 16h",
+                "A-B-imaginário-E-F: 11h",
+                "A-C-E-F: 12h",
+                "A-C-imaginário-D-F: 10h"
+            ],
+            "correct" : 2,
+            "themeId" : 2,
+            "characterId" : 2,
+            "difficulty" : 1
+        },
+        {
+            "prompt" : "Entre as competências que o gerente de um projeto precisa ter para desenvolver o seu desempenho de maneira eficaz e que se relacionam às habilidades interpessoais necessárias para a realização de tarefas em que há pessoas envolvidas, encontram-se as competências:",
+            "answers" : [
+                "estratégicas",
+                "de responsabilidades",
+                "humanas",
+                "de negociações"
+            ],
+            "correct" : 2,
+            "themeId" : 2,
+            "characterId" : 2,
+            "difficulty" : 1
+        },
+        {
+            "prompt" : "A matriz de rastreabilidade dos requisitos vincula requisitos do produto às entregas que os satisfazem, e ajuda a focar nos resultados finais. Esse item é composto por:",
+            "answers" : [
+                "documentos do projeto",
+                "lista de marcos",
+                "registro de mudança",
+                "registro de lições aprendidas"
+            ],
+            "correct" : 0,
+            "themeId" : 2,
+            "characterId" : 2,
+            "difficulty" : 1
+        }
+    ],
+    "themeList" :
+    [
+        { 
+            "theme" : "batata"
+        },
+        {
+            "theme" : "Gerência de projetos"
+        }
+    ],
+    "characterList": 
+    [
+        { 
+            "charName" : "Batateilson",
+            "portraitPath" : "https://hiperideal.vteximg.com.br/arquivos/ids/167660-1000-1000/27502.jpg?v=636615816147030000"
+        },
+        {
+            "charName" : "José",
+            "portraitPath" : "https://ibecensino.org.br/wp-content/uploads/2017/07/109246-5-habilidades-essenciais-de-um-gerente-de-projetos-820x820.jpg"
+        }
+    ]
+}
