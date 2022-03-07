@@ -1,7 +1,7 @@
 (() => {
     function loadThemes() {
         const themes = document.getElementById("theme");
-        fetch('http://localhost:31415/themes',{method:"get"})
+        fetch('http://faperj.ddns.net:31415/themes',{method:"get"})
         .then(function(response) {
             response.json().then(function(data) {
                 for(const theme of data) {
@@ -12,7 +12,7 @@
     }
     function loadCharacters() {
         const characters = document.getElementById("character");
-        fetch('http://localhost:31415/characters',{method:"get"})
+        fetch('http://faperj.ddns.net:31415/characters',{method:"get"})
         .then(function(response) {
             response.json().then(function(data) {
                 for(const character of data) {
@@ -79,7 +79,7 @@
     }
 
     function sendQuestion(question) {
-        const url = 'http://localhost:31415/questions';
+        const url = 'http://faperj.ddns.net:31415/questions';
         const opcoes = {
             method: 'POST',
             headers: {
