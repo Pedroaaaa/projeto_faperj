@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Questões</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1 class="logo"><a href="index.html"><img src="iffluminense.png"></a></h1>   
+        </div>
+    </header>
+    <main class="principal">
+
+        <fieldset id="statement">
+
+            <legend>Enunciado:</legend>
+            <textarea name="statement"></textarea>
+        
+        </fieldset>
+
+        <fieldset id="alternatives">
+            <legend for="">Alternativas:</legend>
+
+            <div class="alternativesBox">
+
+                <label>1- <textarea name="alternatives"></textarea></label>
+                <label>2- <textarea name="alternatives"></textarea></label>
+                <label>3- <textarea name="alternatives"></textarea></label>
+                <label>4- <textarea name="alternatives"></textarea></label>
+                <label>5- <textarea name="alternatives"></textarea></label>
+
+                <div>
+                    <label id="correctLabel">Correct- 
+                        <select name="correct">
+                            <option value="0">1</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="4">5</option>
+                        </select>
+                    </label>
+                </div>
+            
+            </div>
+            
+        </fieldset>
+
+        <fieldset id="theme">
+            <legend>Tema:</legend>
+            
+        </fieldset>
+        
+        <fieldset id="character">
+            <legend>Personagem:</legend>
+
+        </fieldset>
+        
+        <fieldset id="difficulty">
+            <legend>Dificuldade:</legend>
+
+            <input id="difficultyRange" type="range" value="3" min="1" max="5" oninput="this.nextElementSibling.value = this.value">
+            <output id="difficultyOutput">3</output>
+
+        </fieldset>
+
+        <button id="save">Salvar</button>
+
+    </main>
+    <script type="text/javascript" src="./static/index.js"></script>
+</body>
+</html>
