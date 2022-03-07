@@ -25,11 +25,13 @@ class QuestionController {
             const result = await db.query(query, values);
             const questionId = result[0].insertId;
     
+            let index = 0;
+
             for(const answer of question.answers) {
                 const query = "INSERT INTO answers SET ?;";
                 let correct = false;
-            
-                if(answer === question.answers[question.correct]) {
+                
+                if(index == question.correct) {
                     correct = true; 
                 };
                 
@@ -38,8 +40,9 @@ class QuestionController {
                     "answer" : answer,
                     "correct" : correct
                 };
-        
+                
                 await db.query(query, values);
+                index++;
             };
             await db.end();
             return res.status(201).json({ "Status": "Created" })
