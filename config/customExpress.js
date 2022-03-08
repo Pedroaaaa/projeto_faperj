@@ -7,7 +7,7 @@ module.exports = () => {
     const app = express();
     app.use(express.urlencoded( { extended: true } ));
     app.use(express.json());
-    app.use(cors({ origin: `http://${process.env.CORS_ORIGIN}:5500` }));
+    app.use(cors());
     consign().include('./routes').into(app);
 
     return app;
