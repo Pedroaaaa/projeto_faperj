@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-class ListController {
+class AllController {
     static async readAll(req, res) {
         try{
             const questionList = await axios.get('http://faperj.ddns.net:31415/questions');
@@ -16,4 +16,4 @@ class ListController {
         } 
     }
 }
-module.exports = ListController;
+module.exports = AllController;
